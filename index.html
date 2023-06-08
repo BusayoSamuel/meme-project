@@ -21,18 +21,41 @@ But it must have the following features:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Project</title>
   <style>
+    html{
+      background-color: black;
+    }
+    div {
+      width: 50%;
+      margin-left: 25%;
+    }
+    img {
+      border: 5px solid white;
+      width: 100%;
+    }
+    h1 {
+      font-family: 'Libre Baskerville', serif;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+    }
     p {
-      font-size: 30;
+      font-size: 30px;
+      color: white;
+      text-align: center;
     }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Developer:</h1>
-  <p>It works on my computer</p>
-
-
-  <h1>Product Manager:</h1>
-  <p>Yes, but we are NOT going to give your computer to the customrer</p>
-  
+  <div>
+    <img src="./assets/images/daenerys.jpg"/>
+    <h1>Developer:</h1>
+    <p>It works on my computer</p>
+    <img src="./assets/images/Thor.jpg"/>
+    <h1>Product Manager:</h1>
+    <p>Yes, but we are NOT going to give your computer to the customer are we?</p>
+  </div>
 </body>
 </html>
